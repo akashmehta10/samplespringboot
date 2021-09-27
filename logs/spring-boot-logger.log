@@ -1,0 +1,71 @@
+2021-09-22 00:21:02,446 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-22 00:21:19,819 INFO org.springframework.boot.StartupInfoLogger [main] Starting MySpringBoot on Akashs-MacBook-Pro.local with PID 51858 (/Users/akashmehta/IdeaProjects/samplespringboot/target/classes started by akashmehta in /Users/akashmehta/IdeaProjects/samplespringboot)
+2021-09-22 00:21:19,822 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2021-09-22 00:21:19,823 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-09-22 00:21:21,857 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-09-22 00:21:21,892 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-09-22 00:21:21,894 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-09-22 00:21:21,895 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2021-09-22 00:21:22,159 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-09-22 00:21:22,161 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2190 ms
+2021-09-22 00:21:23,083 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-22 00:21:23,700 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-09-22 00:21:23,749 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-22 00:21:23,832 INFO org.springframework.boot.StartupInfoLogger [main] Started MySpringBoot in 10.449 seconds (JVM running for 11.978)
+2021-09-22 00:21:33,969 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-22 00:21:33,977 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-09-22 00:21:33,999 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 22 ms
+2021-09-22 00:21:34,037 TRACE org.org.example.MySpringBoot [http-nio-8080-exec-1] A TRACE Message
+2021-09-22 00:21:34,037 DEBUG org.org.example.MySpringBoot [http-nio-8080-exec-1] A DEBUG Message
+2021-09-22 00:21:34,038 INFO org.org.example.MySpringBoot [http-nio-8080-exec-1] An INFO Message
+2021-09-22 00:21:34,038 WARN org.org.example.MySpringBoot [http-nio-8080-exec-1] A WARN Message
+2021-09-22 00:21:34,039 ERROR org.org.example.MySpringBoot [http-nio-8080-exec-1] An ERROR Message
+2021-09-22 00:37:10,572 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-Acceptor] Error setting socket options
+java.net.SocketException: Invalid argument
+	at java.base/sun.nio.ch.Net.setIntOption0(Native Method)
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:379)
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:317)
+	at java.base/sun.nio.ch.SocketChannelImpl.setOption(SocketChannelImpl.java:241)
+	at java.base/sun.nio.ch.SocketAdaptor.setIntOption(SocketAdaptor.java:239)
+	at java.base/sun.nio.ch.SocketAdaptor.setSoLinger(SocketAdaptor.java:277)
+	at org.apache.tomcat.util.net.SocketProperties.setProperties(SocketProperties.java:213)
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:424)
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:71)
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:115)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+2021-09-22 00:37:16,661 TRACE org.org.example.MySpringBoot [http-nio-8080-exec-4] A TRACE Message
+2021-09-22 00:37:16,662 DEBUG org.org.example.MySpringBoot [http-nio-8080-exec-4] A DEBUG Message
+2021-09-22 00:37:16,663 INFO org.org.example.MySpringBoot [http-nio-8080-exec-4] An INFO Message
+2021-09-22 00:37:16,663 WARN org.org.example.MySpringBoot [http-nio-8080-exec-4] A WARN Message
+2021-09-22 00:37:16,663 ERROR org.org.example.MySpringBoot [http-nio-8080-exec-4] An ERROR Message
+2021-09-22 00:37:16,738 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-6] Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol [RTSP/1.00x0d0x0a0x0d...]
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:560)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:260)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+2021-09-22 00:37:22,163 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-10] Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x800x000x00(=0xd3w)0x000x000x000x000x000x000x000x020x000x010x860xa00x000x000x000x020x000x000x000x000x000x000x000x000x000x000x000x000x000x000x000x000x000x000x00...]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:418)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:260)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+2021-09-22 00:37:22,165 TRACE org.org.example.MySpringBoot [http-nio-8080-exec-1] A TRACE Message
+2021-09-22 00:37:22,165 DEBUG org.org.example.MySpringBoot [http-nio-8080-exec-1] A DEBUG Message
+2021-09-22 00:37:22,166 INFO org.org.example.MySpringBoot [http-nio-8080-exec-1] An INFO Message
+2021-09-22 00:37:22,166 WARN org.org.example.MySpringBoot [http-nio-8080-exec-1] A WARN Message
+2021-09-22 00:37:22,167 ERROR org.org.example.MySpringBoot [http-nio-8080-exec-1] An ERROR Message

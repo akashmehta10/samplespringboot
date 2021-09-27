@@ -1,0 +1,58 @@
+2021-09-21 23:10:44,015 INFO org.springframework.boot.StartupInfoLogger [main] Starting MySpringBoot on Akashs-MacBook-Pro.local with PID 50954 (/Users/akashmehta/IdeaProjects/samplespringboot/target/classes started by akashmehta in /Users/akashmehta/IdeaProjects/samplespringboot)
+2021-09-21 23:10:44,019 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2021-09-21 23:10:44,020 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-09-21 23:10:45,900 INFO org.springframework.boot.StartupInfoLogger [main] Started MySpringBoot in 8.152 seconds (JVM running for 9.064)
+2021-09-21 23:10:55,462 TRACE org.org.example.MySpringBoot [http-nio-8080-exec-1] A TRACE Message
+2021-09-21 23:10:55,474 DEBUG org.org.example.MySpringBoot [http-nio-8080-exec-1] A DEBUG Message
+2021-09-21 23:10:55,475 INFO org.org.example.MySpringBoot [http-nio-8080-exec-1] An INFO Message
+2021-09-21 23:10:55,476 WARN org.org.example.MySpringBoot [http-nio-8080-exec-1] A WARN Message
+2021-09-21 23:10:55,476 ERROR org.org.example.MySpringBoot [http-nio-8080-exec-1] An ERROR Message
+2021-09-21 23:47:53,030 INFO org.springframework.boot.StartupInfoLogger [main] Starting MySpringBoot on Akashs-MacBook-Pro.local with PID 51472 (/Users/akashmehta/IdeaProjects/samplespringboot/target/classes started by akashmehta in /Users/akashmehta/IdeaProjects/samplespringboot)
+2021-09-21 23:47:53,037 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2021-09-21 23:47:53,039 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-09-21 23:47:56,837 INFO org.springframework.boot.StartupInfoLogger [main] Started MySpringBoot in 10.733 seconds (JVM running for 12.207)
+2021-09-21 23:48:10,726 TRACE org.org.example.MySpringBoot [http-nio-8080-exec-1] A TRACE Message
+2021-09-21 23:48:10,738 DEBUG org.org.example.MySpringBoot [http-nio-8080-exec-1] A DEBUG Message
+2021-09-21 23:48:10,739 INFO org.org.example.MySpringBoot [http-nio-8080-exec-1] An INFO Message
+2021-09-21 23:48:10,741 WARN org.org.example.MySpringBoot [http-nio-8080-exec-1] A WARN Message
+2021-09-21 23:48:10,744 ERROR org.org.example.MySpringBoot [http-nio-8080-exec-1] An ERROR Message
+2021-09-21 23:57:56,930 INFO org.springframework.boot.StartupInfoLogger [main] Starting MySpringBoot on Akashs-MacBook-Pro.local with PID 51606 (/Users/akashmehta/IdeaProjects/samplespringboot/target/classes started by akashmehta in /Users/akashmehta/IdeaProjects/samplespringboot)
+2021-09-21 23:57:56,939 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2021-09-21 23:57:56,940 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-09-21 23:58:00,105 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-09-21 23:58:00,128 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-09-21 23:58:00,132 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-09-21 23:58:00,134 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2021-09-21 23:58:00,290 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-09-21 23:58:00,291 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3249 ms
+2021-09-21 23:58:01,339 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-21 23:58:02,361 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-09-21 23:58:02,427 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-21 23:58:02,452 INFO org.springframework.boot.StartupInfoLogger [main] Started MySpringBoot in 11.944 seconds (JVM running for 13.762)
+2021-09-21 23:58:03,260 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-21 23:58:03,265 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-09-21 23:58:03,277 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 12 ms
+2021-09-21 23:58:03,339 TRACE org.org.example.MySpringBoot [http-nio-8080-exec-1] A TRACE Message
+2021-09-21 23:58:03,340 DEBUG org.org.example.MySpringBoot [http-nio-8080-exec-1] A DEBUG Message
+2021-09-21 23:58:03,351 INFO org.org.example.MySpringBoot [http-nio-8080-exec-1] An INFO Message
+2021-09-21 23:58:03,351 WARN org.org.example.MySpringBoot [http-nio-8080-exec-1] A WARN Message
+2021-09-21 23:58:03,352 ERROR org.org.example.MySpringBoot [http-nio-8080-exec-1] An ERROR Message
+2021-09-21 23:58:26,183 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-21 23:58:41,388 INFO org.springframework.boot.StartupInfoLogger [main] Starting MySpringBoot on Akashs-MacBook-Pro.local with PID 51623 (/Users/akashmehta/IdeaProjects/samplespringboot/target/classes started by akashmehta in /Users/akashmehta/IdeaProjects/samplespringboot)
+2021-09-21 23:58:41,411 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-09-21 23:58:48,318 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-09-21 23:58:48,483 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-09-21 23:58:48,487 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-09-21 23:58:48,488 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2021-09-21 23:58:49,185 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-09-21 23:58:49,186 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 7080 ms
+2021-09-21 23:58:50,273 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-21 23:58:51,507 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-09-21 23:58:51,789 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-21 23:58:51,812 INFO org.springframework.boot.StartupInfoLogger [main] Started MySpringBoot in 19.518 seconds (JVM running for 20.507)
+2021-09-21 23:58:52,034 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-21 23:58:52,046 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-09-21 23:58:52,071 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 23 ms
+2021-09-21 23:58:52,310 INFO org.org.example.MySpringBoot [http-nio-8080-exec-1] An INFO Message
+2021-09-21 23:58:52,310 WARN org.org.example.MySpringBoot [http-nio-8080-exec-1] A WARN Message
+2021-09-21 23:58:52,311 ERROR org.org.example.MySpringBoot [http-nio-8080-exec-1] An ERROR Message
